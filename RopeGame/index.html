@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>A Game</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Box2dWeb-2.1.a.3.min.js"></script>
+    <script type="text/javascript" src="rope.js"></script>
+    <style type='text/css'>
+      body {
+        background: #F4F6F8;
+        font-family:"ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+          }
+    </style>
+</head>
+<body onload="loadImages();" style="padding-top: 70px;">
+<nav class="navbar navbar-fixed-top" role="navigation" style="box-shadow: 0px 0px 5px #666666;">
+<div class="container">
+    <h3 style="color:#008CC9;"><b>Rope Fly </b><small style="color:#18BA60"><b>powered by box2dweb physics engine</b></small></h3>
+</div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-9">
+            <canvas id="cvs" width="960" height="480" style="background-image:url(imgs/background.png); box-shadow: 5px 5px 5px #666666;"></canvas>
+            <div class="row">
+            <div class="col-md-6 col-md-offset-1">
+            <h3>How To Play</h3>
+            <p class="text-info">Click anywhere to release the rope</p>
+            <p class="text-info">Click the building to attach the rope to it</p>
+            <p class="text-info">Get as far as you can!</p>
+            <p class="text-info">Don't hit the ground!</p>
+            <p class="text-warning">You need a browser that support JavaScript and HTML5 to play this</p>
+            </div>
+            <div class="col-md-5">
+            <h3>About</h3>
+            <p class="text-info">The <i>Rope'n'Fly</i></p>
+            <p class="text-info">Pictures are collected.</p>
+            <p class="text-info">Weibo: <a href="http://weibo.com/mw2c" target="_blank">@mw2c</a> Github: <a href="https://github.com/mw2c" target="_blank">mw2c</a></p>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
